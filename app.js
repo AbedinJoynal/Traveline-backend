@@ -21,11 +21,9 @@ mongoose
         console.log('connected to database and server');
     });
 
-// app.listen(8000, (req, res, next) => {
-//     console.log('Server is connected and running on port 8000');
-// });
+
 app.get('/', (req, res, next) => {
     res.send('Server connected to Traveline');
 });
 
-//mongodb+srv://dbuser:xWn5dLb2chhLVnq@cluster1.vxc7trs.mongodb.net/?retryWrites=true&w=majority
+
